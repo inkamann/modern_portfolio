@@ -5,10 +5,10 @@ const menuNav = document.querySelector('.menu-nav');
 const menuBranding = document.querySelector('.menu-branding');
 const navItems = document.querySelectorAll('.nav-item');
 
-// Set Initial State Of Manu
+// Set Initial State Of Menu
 let showMenu = false;
 
-manuBtn.addEventListener('click, toggleMenu');
+menuBtn.addEventListener('click', toggleMenu);
 
 function toggleMenu() {
     if(!showMenu) {
@@ -20,8 +20,7 @@ function toggleMenu() {
 
         // Set Menu State
         showMenu = true;
-    }
-    else {
+    } else {
         menuBtn.classList.remove('close');
         menu.classList.remove('show');
         menuNav.classList.remove('show');
