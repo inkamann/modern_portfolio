@@ -1,5 +1,5 @@
 # modern_portfolio
-Responsive Portfolio Website
+Responsive Portfolio Website - Inka Manninen
 
 This is my course project for LUT-University Software Development Skills: Front-End 2020-2021
 
